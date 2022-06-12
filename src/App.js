@@ -8,7 +8,7 @@ import SocialMedia from './SocialMedia/SocialMedia';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter  basename={process.env.PUBLIC_URL}>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
