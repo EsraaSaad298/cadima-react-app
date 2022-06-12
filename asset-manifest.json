@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cadima-react-app/static/css/main.f326da4d.css",
-    "main.js": "/cadima-react-app/static/js/main.d6f6cdf2.js",
+    "main.js": "/cadima-react-app/static/js/main.79af2f30.js",
     "static/js/787.8e96b9fb.chunk.js": "/cadima-react-app/static/js/787.8e96b9fb.chunk.js",
     "index.html": "/cadima-react-app/index.html",
     "main.f326da4d.css.map": "/cadima-react-app/static/css/main.f326da4d.css.map",
-    "main.d6f6cdf2.js.map": "/cadima-react-app/static/js/main.d6f6cdf2.js.map",
+    "main.79af2f30.js.map": "/cadima-react-app/static/js/main.79af2f30.js.map",
     "787.8e96b9fb.chunk.js.map": "/cadima-react-app/static/js/787.8e96b9fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f326da4d.css",
-    "static/js/main.d6f6cdf2.js"
+    "static/js/main.79af2f30.js"
   ]
 }
