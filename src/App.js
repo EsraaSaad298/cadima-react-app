@@ -6,6 +6,17 @@ import Animations from './Animation/Animations';
 import SocialMedia from './SocialMedia/SocialMedia';
 
 function App() {
+  
+  window.onorientationchange = function() { 
+    var orientation = window.orientation; 
+      switch(orientation) { 
+        case 0:
+        case 90:
+        case -90: window.location.reload(); 
+        break; 
+    } 
+};
+
   return (
     <div>
       <BrowserRouter  basename={process.env.PUBLIC_URL}>

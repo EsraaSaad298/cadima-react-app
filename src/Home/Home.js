@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from './Header';
 import '../styling/App.css';
 
 function Home(){
+  
     return(
     <><div>
       <Header />
