@@ -34,7 +34,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Routes>
+      <Routes basename="cadima-react-app">
             <Route path="/" element={<Home />} />
             <Route path="/nature" element={<Nature />} />
             <Route path="/animations" element={<Animations />} />
