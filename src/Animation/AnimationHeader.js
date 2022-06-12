@@ -4,7 +4,7 @@ import '../styling/header.css';
 
 const AHeader = () => {
     return(
-        <nav style = {{width: window.innerWidth}}>
+        <nav style = {{width: '100%'}}>
             <div className='div-header'>
                 <div className='div-svg'>
                     <p>Animation</p>

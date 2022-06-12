@@ -7,33 +7,19 @@ import SocialMedia from './SocialMedia/SocialMedia';
 
 function App() {
   
-  window.onorientationchange = function() { 
-    var orientation = window.orientation; 
-      switch(orientation) { 
-        case 0:
-        case 90:
-        case -90: window.location.reload(); 
-        break; 
-    } 
-};
+//   window.onorientationchange = function() { 
+//     var orientation = window.orientation; 
+//       switch(orientation) { 
+//         case 0:
+//         case 90:
+//         case -90: window.location.reload(); 
+//         break; 
+//     } 
+// };
 
   return (
     <div>
       <BrowserRouter  basename={process.env.PUBLIC_URL}>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
       <Routes basename="cadima-react-app">
             <Route path="/" element={<Home />} />
             <Route path="/nature" element={<Nature />} />

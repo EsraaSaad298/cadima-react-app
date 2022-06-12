@@ -3,8 +3,9 @@ import {Link} from 'react-router-dom';
 import '../styling/header.css';
 
 const Header = () => {
+
     return(
-        <nav style = {{width: window.innerWidth}}>
+        <nav style = {{width: '100%'}}>
             <div className='div-header'>
                 <div className='div-svg'>
                     <p>Home</p>

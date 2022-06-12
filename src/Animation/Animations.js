@@ -1,21 +1,19 @@
 import React from "react";
 import AHeader from "./AnimationHeader";
 import '../styling/App.css';
+import video from "./animation.mp4"
 
 function Animations(){
     return(
     <><div>
         <AHeader />
     </div>
-        <iframe 
-            width= {window.innerWidth}
-            height={window.innerHeight}
-            src="https://www.youtube.com/embed/07d2dXHYb94" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" 
-            allowfullscreen>
-        </iframe></>
+    <div style={{width: '100%', height: '100vh'}}>
+        <video width= {'100%'} height={'100%'} 
+        controls autoPlay = {false} muted playsInline >
+           <source src={video} type="video/mp4"/>
+        </video>
+    </div></>
     );
 }
 

@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Header from './Header';
 import '../styling/App.css';
+import video from "./home.mp4"
 
 function Home(){
   
@@ -8,16 +9,12 @@ function Home(){
     <><div>
       <Header />
     </div>
-        <iframe 
-          width= {window.innerWidth}
-          height={window.innerHeight}
-          src="https://www.youtube.com/embed/Jv-AxyN7HFk" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" 
-          allowfullscreen>
-        </iframe></>
-
+    <div style={{width: '100%', height: '100vh'}}>
+        <video width= {'100%'} height={'100%'} 
+        controls autoPlay = {false} muted playsInline >
+           <source src={video} type="video/mp4"/>
+        </video>
+    </div></>
     );
 }
 

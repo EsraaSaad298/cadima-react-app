@@ -4,7 +4,7 @@ import '../styling/header.css';
 
 const NHeader = () => {
     return(
-        <nav style = {{width: window.innerWidth}}>
+        <nav style = {{width: '100%'}}>
             <div className='div-header'>
                 <div className='div-svg'>
                     <p>Nature</p>
