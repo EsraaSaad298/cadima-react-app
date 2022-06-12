@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/cadima-react-app/static/css/main.f326da4d.css",
-    "main.js": "/cadima-react-app/static/js/main.79af2f30.js",
+    "main.js": "/cadima-react-app/static/js/main.4a8e898d.js",
     "static/js/787.8e96b9fb.chunk.js": "/cadima-react-app/static/js/787.8e96b9fb.chunk.js",
+    "static/media/animation.mp4": "/cadima-react-app/static/media/animation.2007a344ee6279652dd3.mp4",
+    "static/media/nature.mp4": "/cadima-react-app/static/media/nature.6a70778a20f07ae84a1d.mp4",
+    "static/media/socialmedia.mp4": "/cadima-react-app/static/media/socialmedia.4837cae768401fbd39b8.mp4",
+    "static/media/home.mp4": "/cadima-react-app/static/media/home.fc52f9caf1467121e173.mp4",
     "index.html": "/cadima-react-app/index.html",
     "main.f326da4d.css.map": "/cadima-react-app/static/css/main.f326da4d.css.map",
-    "main.79af2f30.js.map": "/cadima-react-app/static/js/main.79af2f30.js.map",
+    "main.4a8e898d.js.map": "/cadima-react-app/static/js/main.4a8e898d.js.map",
     "787.8e96b9fb.chunk.js.map": "/cadima-react-app/static/js/787.8e96b9fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f326da4d.css",
-    "static/js/main.79af2f30.js"
+    "static/js/main.4a8e898d.js"
   ]
 }
